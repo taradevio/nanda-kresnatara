@@ -1,11 +1,16 @@
-<header class="fixed bottom-0 left-0 w-full bg-amber-300">
+<header class="sm:h-full sm:content-center">
     <nav>
-        <menu class="flex p-6 justify-center items-center gap-6 font-semibold">
+        <menu class="flex p-6 justify-center items-center gap-6 font-semibold sm:block sm:content-center sm:text-center sm:w-max sm:mx-auto">
+            <a href="#"><li>Home</li></a>
+            <!-- considering removing about -->
             <a href="#about"><li>About</li></a>
             <a href="#projects"><li>Projects</li></a>
-            <a href="#"><li>Home</li></a>
-            <a href="#skills"><li>Skills</li></a>
             <li>Contact</li>
         </menu>
+        <div class="justify-center w-max mx-auto gap-x-2 hidden sm:flex">
+            <img src="/github.png" alt="github">
+            <img src="/linkedin.png" alt="linkedin">
+            <img src="/twitter.png" alt="twitter">
+        </div>
     </nav>
 </header>
