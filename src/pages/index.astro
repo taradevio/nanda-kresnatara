@@ -13,10 +13,14 @@ import "../styles/global.css";
 ---
 
 <Layout>
-	<Navbar />
-	<Hero />
-	<About />
-	<Projects />
-	<Skills />
-	<Footer />
+	<div class="sm:w-[30%] fixed bottom-0 left-0 w-full sm:h-full">
+		<Navbar />
+	</div>
+	<div class="sm:w-[70%] ml-auto sm:ps-5 sm:pe-5">
+		<Hero />
+		<About />
+		<Projects />
+		<Skills />
+		<Footer />
+	</div>
 </Layout>
