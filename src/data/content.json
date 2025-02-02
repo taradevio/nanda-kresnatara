@@ -1,0 +1,14 @@
+{
+  "projects": [
+    {
+      "title": "Visit Wonogiri",
+      "description": "A redesigned website of the official Wonogiri regency website, focusing on its accessibility to provide direct and simplified user experiences",
+      "stack": ["Astro", "Tailwind CSS"]
+    },
+    {
+      "title": "Order of The Wild: Lingo",
+      "description": "An English test game that is inspired by text RPG game mechanisms, aimed to combine education and entertainment to create a more engaging language learning",
+      "stack": ["HTML", "CSS", "Javascript"]
+    }
+  ]
+}
