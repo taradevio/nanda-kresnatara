@@ -1,12 +1,20 @@
-<div class="border-1 border-amber-600 rounded-xl p-3 my-3 w-xs mx-auto sm:mx-0">
-    <div class="flex justify-between">
-        <h3 class="text-xl font-semibold">Visit Wonogiri</h3>
-        <img src="/external-link.png" alt="external link">
+---
+import content from '../data/content.json';
+const projectContent = content.projects;
+---
+{projectContent.map(({title, description, stack}) =>
+    <div class="border-2 border-[#27272a] bg-[#18181b] rounded-2xl w-xs mx-auto sm:mx-0 py-2 px-3 mb-5 sm:mb-0">
+         <div class="flex justify-between">
+            <h3 class="text-lg font-semibold text-[#fafafa]">{title}</h3>
+            <img src="/external-link.png" alt="external link" />
+        </div>
+        <p class="my-3 text-[#a1a1aa]">{description}</p>
+        <div class="text-[#a1a1aa] inline-flex text-center mx-auto w-full gap-3">
+            {stack.map((item) =>
+                <span class="border-1 border-[#27272a] py-1 px-2 rounded-lg">{item}</span>
+            )}
+        </div> 
     </div>
-    <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quia, quam nam maiores reprehenderit numquam eveniet corrupti obcaecati ratione molestiae optio, ut, excepturi a sunt odio ipsam? Magni, quas? Esse, eos?</p>
-    <div>
-        <span>astro</span>
-        <span>tailwind css</span>
-        <span>javascript</span>
-    </div>
-</div>
+
+)}
+
