@@ -1,6 +1,14 @@
-<footer class="mt-10 bg-amber-200 mb-17 py-5 sm:mb-0">
-    <div>
+<footer class="mt-10 border-t-1 border-[#27272a] mb-17 py-5 sm:mb-0">
+    <div class="text-[#fafafa]">
         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam iure error numquam suscipit. Alias architecto accusamus esse rem, officia sit asperiores maxime repellat. At eligendi ullam reiciendis autem quos odit.</p>
-        <p>© Nanda Kresnatara 2025</p>
+        <p class="text-center">© Nanda Kresnatara <time id="date"></time></p>
     </div>
 </footer>
+
+<script is:inline>
+    document.addEventListener('DOMContentLoaded', () => {
+        const date = new Date();
+        const getDate = document.getElementById('date');
+        getDate.innerText = date.getFullYear();
+    })
+</script>
