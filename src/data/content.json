@@ -17,7 +17,7 @@
     {
       "title": "Air Pollution",
       "link": "https://github.com/taradevio/air-pollution-api",
-      "description": "A collaborated project integrating a backend API by handling dynamic data to ensure real-time updates populated on the frontend side",
+      "description": "A collaborative project leveraging a backend API to dynamically populate the frontend with real-time updates",
       "stack": ["HTML", "CSS", "Javascript", "Leaflet js"],
       "slug": "/projects/air-pollution"
     },
