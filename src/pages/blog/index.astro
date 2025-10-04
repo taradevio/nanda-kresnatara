@@ -1,0 +1,17 @@
+---
+import BlogLayout from "../../layouts/BlogLayout.astro";
+import CardBlog from "../../components/CardBlog.astro";
+import "../../styles/global.css";
+
+---
+
+<BlogLayout>
+  <section id="blog">
+    <div class="ps-3 pe-3">
+      <div class="my-5">
+        <h1 class="text-4xl">Blog</h1>
+      </div>
+      <CardBlog />
+    </div>
+  </section>
+</BlogLayout>

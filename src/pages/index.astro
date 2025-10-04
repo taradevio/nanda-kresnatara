@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 import Navbar from '../components/Navbar.astro';
 import Hero from '../components/Hero.astro';
 import About from '../components/About.astro';
@@ -29,3 +30,45 @@ import "../styles/global.css";
 </Layout>
 
 <script src="../scripts/mouse.js"></script>
+=======
+import Navbar from "../components/Navbar.astro";
+import Hero from "../components/Hero.astro";
+import About from "../components/About.astro";
+import Projects from "../components/Projects.astro";
+import Skills from "../components/Skills.astro";
+import Contact from "../components/Contact.astro";
+import Footer from "../components/Footer.astro";
+import Layout from "../layouts/Layout.astro";
+import Splash from "../components/Splash.astro";
+import "../styles/global.css";
+---
+
+<Layout>
+  <div
+    class="w-full bg-amber-300 h-full fixed top-0 z-10 grid place-content-center"
+    id="splash"
+  >
+    <h1 class="text-6xl splash-text">MY WEBSITE</h1>
+  </div>
+  <div
+    class="mouse w-[15px] h-[15px] rounded-full border-2 bg-blue-500 fixed top-0 left-0 pointer-events-none"
+  >
+  </div>
+  <div class="main-content">
+    <div class="md:w-[30%] fixed bottom-0 left-0 w-full md:h-full">
+      <Navbar />
+    </div>
+    <div class="md:w-[70%] ml-auto ps-5 pe-5">
+      <Hero />
+      <About />
+      <Projects />
+      <Skills />
+      <Contact />
+      <Footer />
+    </div>
+  </div>
+</Layout>
+
+<script src="../scripts/mouse.js"></script>
+<script src="../scripts/splash.js"></script>
+>>>>>>> master

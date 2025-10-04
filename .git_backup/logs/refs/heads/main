@@ -1,0 +1,5 @@
+0000000000000000000000000000000000000000 6fab8b0681c9c90aad7fa4663a3dcdff00763fcf Tara <nandayavanets@mail.ru> 1756990478 +0700	clone: from https://github.com/taradevio/nanda-kresnatara.git
+6fab8b0681c9c90aad7fa4663a3dcdff00763fcf 2c9b299e839b10cc4f2ce432eacc08bfe136717d Tara <nandayavanets@mail.ru> 1756997800 +0700	commit: feat: add smooth scrolling and custom cursor effects
+2c9b299e839b10cc4f2ce432eacc08bfe136717d bb3665a426707dcfa62de586082478a6fc6d235c Tara <nandayavanets@mail.ru> 1757036896 +0700	commit: Implement feature X to enhance user experience and optimize performance
+bb3665a426707dcfa62de586082478a6fc6d235c fc291e5df0c9c4cf0694faf1b7849601f92a36ff Tara <nandayavanets@mail.ru> 1757039802 +0700	commit: chore: update dependencies and add wrangler for Cloudflare support
+fc291e5df0c9c4cf0694faf1b7849601f92a36ff 83b3a0e55da7c906a2ad7cbbb142455ae8a98fa5 Tara <nandayavanets@mail.ru> 1757055743 +0700	commit: feat: add splash screen component with GSAP animations
