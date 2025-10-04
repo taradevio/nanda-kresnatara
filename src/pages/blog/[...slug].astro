@@ -1,6 +1,7 @@
 ---
 import { Tina } from "tinacms";
 import {CustomMarkdown} from '../../components/CustomMarkdown'
+import BlogFooter from "../../components/BlogFooter.astro";
 import client from "../../../tina/__generated__/client";
 import BlogLayout from "../../layouts/BlogLayout.astro";
 import "../../styles/global.css";
@@ -61,5 +62,6 @@ const { post } = Astro.props;
         >
       </div>
     </article>
+    <BlogFooter />
   </div>
 </BlogLayout>
