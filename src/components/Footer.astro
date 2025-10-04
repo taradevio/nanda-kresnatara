@@ -1,0 +1,14 @@
+<footer class="mt-10 border-t-1 border-[#27272a] mb-17 py-5 md:mb-0">
+    <div class="text-[#fafafa] text-center">
+        <p class="mb-2 font-thin italic">Crafted freely on <a href="https://www.tldraw.com/ro/1_WZe223kA7F-ltSd9an8?d=v-809.2462.8069.3881.page" target="_blank" class="hover:underline">tldraw</a>, Ornamented minimally, Decoded using <a href="https://www.astro.build" target="_blank" class="hover:underline">Astro</a>, Elatedly presented </p>
+        <p>© Nanda Kresnatara <time id="date"></time></p>
+    </div>
+</footer>
+
+<script is:inline>
+    document.addEventListener('DOMContentLoaded', () => {
+        const date = new Date();
+        const getDate = document.getElementById('date');
+        getDate.innerText = date.getFullYear();
+    })
+</script>
